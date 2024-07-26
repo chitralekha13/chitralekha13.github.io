@@ -1,41 +1,52 @@
 <!DOCTYPE HTML>
-<!--
-	Directive by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
-	<head>
-		<title>Directive by HTML5 UP</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		#header .profile-card {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            border-radius: 50%;
-            overflow: hidden;
-            width: 60px; /* Adjust size as needed */
-            height: 60px; /* Adjust size as needed */
-            border: 3px solid white; /* Optional: add a border around the profile image */
+<head>
+    <title>Directive by HTML5 UP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        #header {
+            text-align: center;
+            color: black; /* Set text color */
+            margin: 20px;
         }
-	</head>
-	<body class="is-preload">
+        .profile-card {
+            display: inline-block;
+            position: relative;
+            margin-bottom: 10px;
+        }
+        .profile-card img {
+            width: 50px; /* Adjust size as needed */
+            height: 50px; /* Adjust size as needed */
+            border-radius: 50%;
+            border: 2px solid white; /* Optional: add a border around the profile image */
+            box-shadow: 0 0 5px rgba(0,0,0,0.5); /* Optional: add shadow for better visibility */
+        }
+        #header h3 {
+            margin-top: 10px;
+        }
+        #header p {
+            color: black; /* Set text color */
+        }
+        #header a {
+            color: blue; /* Set link color */
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body class="is-preload">
 
-		<!-- Header -->
-			<div id="header">
-				<div class="profile-card">
-                                  <img src="images/638575326694097260.jpg" alt="Profile Icon">
-                                </div>
-				<title><h3> Chitra Lekha Sura</h3></title>
-				<p>A data enthusiast & 
-				<br />
-				 An aspiring Data Scientist and Analyst. 
-				<br/> Here is my <a href="Chitra Sura-resume-DA.pdf">resume</a>.</p>
-			</div>
-
+    <!-- Header -->
+    <div id="header">
+        <div class="profile-card">
+            <img src="images/638575326694097260.jpg" alt="Profile Icon">
+        </div>
+        <h3>Chitra Lekha Sura</h3>
+        <p>A data enthusiast &<br/>
+        An aspiring Data Scientist and Analyst.<br/>
+        Here is my <a href="Chitra Sura-resume-DA.pdf">resume</a>.</p>
+    </div>
 		<!-- Main -->
 			<div id="main">
 
